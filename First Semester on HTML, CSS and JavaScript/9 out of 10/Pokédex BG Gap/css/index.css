@@ -1,0 +1,118 @@
+/* Classes */
+
+#info-list {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    text-indent: 15px;
+    cursor: pointer;
+    /* border */
+    border: 5px solid transparent;
+    border-radius: 5px;
+    width: 230px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    margin-right: 5%;
+    padding: 5px;
+    /* background */
+    /* background: linear-gradient(to top, #000000ba, #292929cc) no-repeat top center; */
+}
+
+.info:hover {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    animation-name: onClick;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.window {
+    visibility: hidden;
+    font-family: 'DotGothic16', sans-serif;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    width: 400px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-top: 15%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.show {
+    visibility: visible;
+}
+
+.pkmn {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 10%;
+    padding-left: 25px;
+    margin-left: 35%;
+}
+
+.pkmn-img {
+    width: 450px;
+    height: auto;
+    image-rendering: pixelated;
+    position: fixed;
+}
+
+/* Tags */
+
+p {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+}
+
+header {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    padding: 10px;
+    padding-left: 45px;
+    left: 0;
+    top: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 55px;
+    height: auto;
+    image-rendering: pixelated;
+}
+
+span {
+    padding: 5px;
+}
+
+/* Animação */
+
+@keyframes onClick {
+    0% {background-color: rgba(0, 0, 0, 0.3); border-color: rgba(126, 206, 218, 0.5);}
+    50% {background-color: rgba(0, 0, 0, 0.3); border-color: rgba(18, 33, 172, 0.5);}
+    100% {background-color: rgba(0, 0, 0, 0.3); border-color: rgba(126, 206, 218, 0.5);}
+}
+
+@keyframes pop {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
