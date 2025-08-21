@@ -1,0 +1,21 @@
+img{
+    width: 300px;
+    float: left;
+    margin: 10px 10px;
+}
+div{
+    width: 100px;
+    border: 2px dashed brown;
+    margin-bottom: 20px;
+}
+#primeiro{
+    float: right;
+}
+#texto{
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
+}
+p{
+    margin-top: 0px;
+}

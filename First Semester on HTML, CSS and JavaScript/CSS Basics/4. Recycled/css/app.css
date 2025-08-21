@@ -1,0 +1,44 @@
+/* Borda */
+p{
+    border-top: 15px solid blue;
+    border-bottom: 2px solid blue;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+}
+
+/* Largura e altura */
+p{
+    width: 300px;
+    /* height: 20px; */
+}
+
+/* Padding */
+p{
+    /* padding: 20px; */
+
+    /* padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px; */
+
+    padding: 30px 15px 20px 15px;
+    /* Atalho funfa p Border e Margin
+    Top Right Bottom Left*/
+}
+
+/* Margem */
+p{
+    /* margin: 20px 20px 50px 15px; */
+
+    /* margin-left: auto;
+    margin-right: auto;
+    centraliza LEGAL o elemento */
+
+    margin: 20px auto;
+    /* Top & Bottom Right & Left */
+}
+
+/* Alinhador */
+p{
+    text-align: center;
+}

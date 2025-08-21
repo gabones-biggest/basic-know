@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+p{
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    border-bottom: 2px solid black;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
